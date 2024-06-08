@@ -9,7 +9,7 @@ import ProductRoute from './router/ProductRoute.js'
 const app = express()
 app.use(express.json())
 dotenv.config
-app.use(cors({ credential: true, origin: "LINK frontend"}))
+app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
 
 //Config Upload File
 const __filename = fileURLToPath(import.meta.url);

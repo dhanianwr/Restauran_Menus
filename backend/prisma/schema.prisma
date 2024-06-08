@@ -21,6 +21,7 @@ model Menus {
   deskripsi    String
   gambarproduk String
   url          String
+  // kategori     String
 }
 
 // model Pesanan {
